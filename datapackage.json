@@ -1,0 +1,414 @@
+{
+  "name":"annual-consumer-price-index-percent-change-1974-2016",
+  "title":"Annual Consumer Price Index Percent Change 1974-2016",
+  "description":"The Consumer Price Index (CPI) for food is a component of the all-items CPI. The CPI measures the average change over time in the prices paid by urban consumers for a representative market basket of consumer goods and services. While the all-items CPI measures the price changes for all consumer goods and services, including food, the CPI for food measures the changes in the retail prices of food items only.",
+  "documentation":"The Consumer Price Index (CPI) is the most publicized and widely used measure of the general level of prices in the U.S. economy. The CPI is a composite measure of the level of average prices paid by urban consumers for a defined market basket of goods and services, including food. Changes in the CPI are widely used to measure inflation (changes in the general price level) in the U.S. economy.\nThe CPI for food at home is a component of the full CPI and is the principal indicator of changes in retail food prices. Industry analysts, food market participants, and policymakers, both public and private, closely follow the CPI for food consumed at home and its changes, which measure price inflation for food items. The CPI for food consumed at home also affects policy evaluation because the effects of many current and proposed policies are evaluated based on CPI measures. To contribute to the analysis of government and commercial decisionmakers, ERS estimates the future direction of changes in the CPI for all food, food at home, and food away from home.\nAlthough ERS analyzes changes in retail prices for individual food items, sometimes it is useful to record and analyze a measure of change for the overall level of food prices. The food price level can be influenced by changes in costs incurred by food system firms. Changes in input costs can translate directly into changes in the CPI, or these cost changes may have little or no effect. Researchers at ERS not only produce forecasts of the CPI but also analyze the impact of economic factors on changes in the CPI, including changes in firms' costs. ERS regularly updates and provides food price forecasts for the short-term period of 12 to 18 months based on a composite of formal model results and economic analysis. ERS uses monthly Bureau of Labor Statistics' indexes for all food, food away from home, food at home, and 15 food-at-home categories in conjunction with ERS analysis to adjust the current short-term forecasts for each of the food categories.\n\nFood price forecasts are subject to revision if the conditions on which they are based change significantly. Projections could be affected by changes, for example, in the feed grain crop outlook; in export markets, especially for meat items; in nonfarm markets; or in weather-related crop conditions in major fresh fruit and vegetable growing areas. Historical data indicate that fresh fruits and vegetables and egg prices are the most volatile food prices that ERS tracks. Grain price changes affect the price of meats, poultry, eggs, and dairy products more than the prices of other food items and to a lesser extent cereals and bakery products. Because these items account for more than half of the at-home food dollar, price changes for these categories can significantly affect the Consumer Price Index (CPI) for food at home.",
+  "date_created":"2014-04-01",
+  "last_updated":"2017-02-07",
+  "version":"2017-02",
+  "update_frequency":"Annual",
+  "temporal_coverage":"1974-2016",
+  "spatial_coverage":"US",
+  "license":"John Snow Labs Standard License",
+  "sources":[
+    {
+      "name":"John Snow Labs"
+    },
+    {
+      "name":"Data.gov"
+    }
+  ],
+  "contributors":[
+    {
+      "name":"John Snow Labs",
+      "email":"support@JohnSnowLabs.com",
+      "uri":"http://www.JohnSnowLabs.com",
+      "role":"author"
+    }
+  ],
+  "source_license_requirements":"N/A",
+  "citation":"N/A",
+  "keywords":[
+    "Consumer price index",
+    "Food Price inflation",
+    "Meats, poultry, and fish",
+    "Beef and veal",
+    "Pork",
+    "Eggs",
+    "Dairy products",
+    "Fats and oils",
+    "Fruits and vegetables",
+    "Sugar and sweets",
+    "Cereals and bakery products",
+    "Nonalcoholic beverages"
+  ],
+  "other_titles":[
+    "Annual Food Price Inflation Percent Change 1974-2016",
+    "Consumer Price Index All Food Items US 1974-2016",
+    "Percentage of Food Inflation US 1974-2016"
+  ],
+  "resources":[
+    {
+      "path":"data.csv",
+      "name":"annual-consumer-price-index-percent-change-1974-2016-csv",
+      "format":"csv",
+      "mediatype":"text/csv",
+      "schema":{
+        "fields":[
+          {
+            "name":"Item",
+            "description":"The specific food item to which the consumer price index is calculated",
+            "type":"string",
+            "constraints":{
+              "maxLength":29
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1974",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1975",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1976",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1977",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1978",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1979",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1980",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1981",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1982",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1983",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1984",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1985",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1986",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1987",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1988",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1989",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1990",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1991",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1992",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1993",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1994",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1995",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1996",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1997",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1998",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_1999",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2000",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2001",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2002",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2003",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2004",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2005",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2006",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2007",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2008",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2009",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2010",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2011",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2012",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2013",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2014",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2015",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          },
+          {
+            "name":"Annual_Percent_Change_2016",
+            "description":"The annual percentage price changes in the retail prices of food items for the year.",
+            "type":"number",
+            "constraints":{
+              "level":"Ratio"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
