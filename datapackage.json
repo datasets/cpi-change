@@ -12,15 +12,15 @@
   "license":"John Snow Labs Standard License",
   "sources":[
     {
-      "name":"John Snow Labs"
+      "title": "John Snow Labs"
     },
     {
-      "name":"Data.gov"
+      "title":"Data.gov"
     }
   ],
   "contributors":[
     {
-      "name":"John Snow Labs",
+      "title":"John Snow Labs",
       "email":"support@JohnSnowLabs.com",
       "uri":"http://www.JohnSnowLabs.com",
       "role":"author"
