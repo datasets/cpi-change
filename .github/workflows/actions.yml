@@ -35,9 +35,10 @@ jobs:
 
     - name: Install Python dependencies
       run: |
-          python -m venv venv
-          source venv/bin/activate
-          pip install --upgrade pip
+        python -m venv venv
+        source venv/bin/activate
+        pip install --upgrade pip
+        pip install -r scripts/requirements.txt
 
     - name: Run scripts
       run: |
