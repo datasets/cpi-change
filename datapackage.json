@@ -49,7 +49,7 @@
   ],
   "resources":[
     {
-      "path":"data.csv",
+      "path":"data/data.csv",
       "name":"annual-consumer-price-index-percent-change-1974-2016-csv",
       "format":"csv",
       "mediatype":"text/csv",
